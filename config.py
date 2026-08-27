@@ -74,7 +74,10 @@ CONTEXT_BUDGET_CHUNKS = 12   # jawny budzet kontekstu przekazywanego do LLM
 #  LLM (Anthropic)
 # =============================================================
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
-ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-5")
+# Domyslnie Opus 5 - poprawnosc prawna to priorytet #1. Koszt kontrolowany
+# spend-capem w Anthropic Console. Mozna zmienic na claude-sonnet-5 dla nizszego
+# kosztu przez ustawienie ANTHROPIC_MODEL w .env.
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-opus-5")
 
 # =============================================================
 #  Aplikacja / dostep
