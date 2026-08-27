@@ -27,6 +27,9 @@ ANX_ID_RE = re.compile(r"^anx_([IVXLCDM]+)$")
 RCT_ID_RE = re.compile(r"^rct_(\d+)$")
 CPT_ID_RE = re.compile(r"^cpt_([IVXLCDM]+)$")
 LEADING_NUM_RE = re.compile(r"^\s*(\d+)\.\s*")
+# marker punktu/litery: "1)", "a)", "(i)", "12)" itp.
+MARKER_RE = re.compile(r"^\(?([0-9]{1,3}|[a-z]{1,2}|[ivxlcdm]{1,4})\)$")
+HEADING_CLASSES = {"oj-ti-grseq-1", "oj-ti-grseq", "oj-doc-ti", "eli-title", "oj-ti-annex"}
 
 
 def _norm(text: str) -> str:
@@ -38,6 +41,31 @@ def _norm(text: str) -> str:
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\s*\n\s*", "\n", text)
     return text.strip()
+
+
+def _table_to_text(tbl) -> str:
+    """Renderuje tabele jako czytelny tekst: wiersze 'c1 | c2 | ...'."""
+    rows = []
+    for tr in tbl.find_all("tr"):
+        cells = [_norm(td.get_text(" ", strip=True)) for td in tr.find_all(["td", "th"])]
+        cells = [c for c in cells if c]
+        if cells:
+            rows.append(" | ".join(cells))
+    return "\n".join(rows)
+
+
+def _extract_points(para) -> list[dict]:
+    """Pod-jednostki ustepu (punkty/litery) z bezposrednich tabel-markerow."""
+    points = []
+    for tbl in para.find_all("table", recursive=False):
+        first = tbl.find(["td", "th"])
+        marker = _norm(first.get_text(" ", strip=True)) if first else ""
+        if MARKER_RE.match(marker):
+            full = _norm(tbl.get_text(" ", strip=True))
+            # usun wiodacy marker z tresci, jesli sie powtarza
+            body = full[len(marker):].lstrip(" )") if full.startswith(marker) else full
+            points.append({"marker": marker.strip("()"), "text": _norm(body)})
+    return points
 
 
 def _chapter_of(node) -> str | None:
@@ -91,7 +119,12 @@ def parse_source(raw_path: str) -> dict:
             m = LEADING_NUM_RE.match(raw)
             p_num = m.group(1) if m else None
             paragraphs.append(
-                {"paragraph": p_num, "text": raw, "html_id": para.get("id")}
+                {
+                    "paragraph": p_num,
+                    "text": raw,
+                    "html_id": para.get("id"),
+                    "points": _extract_points(para),
+                }
             )
 
         # Artykul bez numerowanych ustepow -> jeden ustep = cale cialo (bez tytulu).
@@ -117,12 +150,38 @@ def parse_source(raw_path: str) -> dict:
         roman = ANX_ID_RE.match(anx.get("id")).group(1)
         heading = anx.find(class_="eli-title") or anx.find("p", class_="oj-ti-annex")
         title = _norm(heading.get_text(" ", strip=True)) if heading else None
+
+        # Podzial na sekcje po naglowkach (Tabela 1/2/3, czesci zalacznika).
+        sections = []
+        cur = {"heading": None, "parts": []}
+        for child in anx.find_all(recursive=False):
+            cls = set(child.get("class") or [])
+            is_heading = bool(cls & HEADING_CLASSES)
+            if child.name == "table":
+                cur["parts"].append(_table_to_text(child))
+            elif is_heading:
+                if cur["parts"] or cur["heading"]:
+                    sections.append(cur)
+                cur = {"heading": _norm(child.get_text(" ", strip=True)), "parts": []}
+            else:
+                t = _norm(child.get_text(" ", strip=True))
+                if t:
+                    cur["parts"].append(t)
+        if cur["parts"] or cur["heading"]:
+            sections.append(cur)
+        sections = [
+            {"heading": s["heading"], "text": _norm("\n".join(s["parts"]))}
+            for s in sections
+            if _norm("\n".join(s["parts"])) or s["heading"]
+        ]
+
         annexes.append(
             {
                 "annex": roman,
                 "title": title,
                 "text": _norm(anx.get_text(" ", strip=True)),
                 "n_tables": len(anx.find_all("table")),
+                "sections": sections,
             }
         )
 

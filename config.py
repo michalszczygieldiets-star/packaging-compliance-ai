@@ -34,6 +34,9 @@ RELATIONS_PATH = INDEX_DIR / "relations.json"    # graf odeslan miedzy jednostka
 #  Dokument zrodlowy (canonical source)
 # =============================================================
 DOCUMENT_ID = "EU_2025_40"
+# Prefiks stabilnych ID chunkow wg kontraktu (sekcja 6): bez podkreslnika,
+# np. EU2025_40_ART6_P3. Rozny od DOCUMENT_ID celowo.
+STABLE_ID_PREFIX = "EU2025_40"
 DOCUMENT_TITLE = "Rozporzadzenie (UE) 2025/40"
 # Oficjalny HTML PL (Plan A). Fallback: lokalny PDF w RAW_DIR (Plan B).
 EURLEX_HTML_URL_PL = (
