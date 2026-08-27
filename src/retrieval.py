@@ -223,16 +223,95 @@ def retrieve(query: str, top_k: int = TOP_K) -> dict:
             "ranked": ranked[:CONTEXT_BUDGET_CHUNKS]}
 
 
+# ------------------------------------------------------------- context expansion (Faza 10)
+_PRIORITY = {"normative": 0, "annex": 1, "recital": 2}
+
+
+def _resolve_target(target: str) -> list[dict]:
+    """Zamienia ID-cel odeslania na istniejace chunki (z budzetowaniem)."""
+    chunks, by_id = _load_chunks()
+    if target in by_id:
+        return [by_id[target]]
+    # ustep rozbity na punkty: ART{a}_P{p} -> wszystkie punkty tego ustepu
+    m = re.match(r"(.+)_ART(\d+)_P(\d+)$", target)
+    if m:
+        art, p = m.group(2), m.group(3)
+        hits = [c for c in chunks if c.get("article") == art and c.get("paragraph") == p]
+        if hits:
+            return hits
+    # caly artykul ART{a} -> reprezentatywnie ust. 1 (lub pierwszy chunk)
+    m = re.match(r"(.+)_ART(\d+)$", target)
+    if m:
+        art = m.group(2)
+        hits = [c for c in chunks if c.get("article") == art]
+        return hits[:1]
+    # zalacznik ANX_{roman} -> preferuj sekcje z tabela, max 2
+    m = re.match(r"(.+)_ANX_([IVXLCDM]+)$", target)
+    if m:
+        roman = m.group(2)
+        secs = [c for c in chunks if c.get("annex") == roman]
+        tabled = [c for c in secs if c.get("table")]
+        pick = (tabled or secs)[:2]
+        return pick
+    return []
+
+
+def expand_context(query: str, budget: int = 14, primary_k: int = 5,
+                   ref_cap: int = 8) -> dict:
+    """Faza 10: kolejnosc gwarantuje przetrwanie komplementarnych jednostek.
+    context = [exact] + [czolowe seedy] + [ICH bezposrednie references] +
+    [reszta fuzji], dedup, w jawnym budzecie. Dzieki temu np. Zalacznik II
+    i art. 48 (references art. 6) nie sa wypychane przez luzne chunki fuzji.
+    Zwraca {citation, seeds, context, added_refs}."""
+    r = retrieve(query)
+    exact = r["exact"]
+    fused = r["ranked"]
+
+    seen = set()
+    order = []
+
+    def take(c):
+        if c["stable_chunk_id"] not in seen:
+            seen.add(c["stable_chunk_id"])
+            order.append(c)
+            return True
+        return False
+
+    # 1) jednostki z jawnego cytatu (najwyzszy priorytet)
+    for c in exact:
+        take(c)
+    # 2) czolowe seedy z fuzji
+    primary = [c for c in fused if c["stable_chunk_id"] not in seen][:primary_k]
+    for c in primary:
+        take(c)
+    # 3) bezposrednie references jednostek z (1)+(2) - PRZED reszta fuzji
+    added_refs, used = [], 0
+    for c in list(exact) + primary:
+        for ref in c.get("references", []):
+            if used >= ref_cap:
+                break
+            for tgt in _resolve_target(ref["target"]):
+                if take(tgt):
+                    added_refs.append(tgt["stable_chunk_id"])
+                    used += 1
+    # 4) reszta fuzji do wypelnienia budzetu
+    for c in fused:
+        if len(order) >= budget:
+            break
+        take(c)
+
+    context = order[:budget]
+    return {"citation": r["citation"], "seeds": fused,
+            "context": context, "added_refs": added_refs}
+
+
 if __name__ == "__main__":
     import sys
 
     q = " ".join(sys.argv[1:]) or "Co mowi art. 6 ust. 3?"
     print("QUERY:", q)
     print("CITATION:", parse_citation(q))
-    r = retrieve(q)
-    print("\n--- EXACT ---")
-    for c in r["exact"][:6]:
-        print(f"  {c['stable_chunk_id']:26} | {c['citation']}")
-    print("--- SEMANTIC TOP ---")
-    for c, s in r["semantic"][:6]:
-        print(f"  {s:.3f} {c['stable_chunk_id']:26} | {c['citation']}")
+    e = expand_context(q)
+    print(f"\n--- CONTEXT ({len(e['context'])} chunkow, added_refs={len(e['added_refs'])}) ---")
+    for c in e["context"]:
+        print(f"  [{c.get('legal_function','?'):9}] {c['stable_chunk_id']:26} | {c['citation']}")
