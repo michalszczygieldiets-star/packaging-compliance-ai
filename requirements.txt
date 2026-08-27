@@ -1,0 +1,20 @@
+# Baza minimalna - rosnie fazami. Wersje doprecyzujemy przy instalacji (Faza 7),
+# bo Python 3.14 bywa opozniony z niektorymi wheelami.
+python-dotenv
+requests
+
+# --- Parser HTML (Faza 4) ---
+beautifulsoup4
+lxml
+
+# --- Retrieval / vector store (Faza 7; wybor FAISS vs Chroma zaleznie od wheeli) ---
+# faiss-cpu
+# chromadb
+numpy
+
+# --- LLM + structured output (Faza 11) ---
+anthropic
+pydantic
+
+# --- UI (Faza 13) ---
+streamlit

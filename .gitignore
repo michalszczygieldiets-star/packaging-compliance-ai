@@ -1,0 +1,32 @@
+# --- Secrets ---
+.env
+.env.local
+*.key
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- RAG artifacts (regenerowalne przez ingest.py) ---
+index/*.faiss
+index/*.pkl
+index/*.json
+!index/.gitkeep
+
+# --- Raw source cache (duże pliki; canonical pobierany/wrzucany lokalnie) ---
+data/raw/*.pdf
+data/raw/*.html
+data/raw/*.xml
+!data/raw/.gitkeep
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
