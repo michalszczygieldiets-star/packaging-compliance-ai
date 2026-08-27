@@ -54,9 +54,18 @@ HARD_SPLIT_TOKENS = 1200
 # =============================================================
 #  Embeddings / retrieval (finalny wybor providera w Fazie 7)
 # =============================================================
-EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "voyage")  # voyage | local
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "voyage-3.5")
+EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "local")  # local | voyage
+# Lokalny model (fastembed / ONNX, bez torcha, keyless). e5 wymaga prefiksow
+# "query:"/"passage:". Na deployment mozna zejsc do lzejszego multilingual.
+LOCAL_EMBEDDING_MODEL = os.getenv(
+    "LOCAL_EMBEDDING_MODEL", "intfloat/multilingual-e5-large"
+)
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "voyage-3.5")  # gdy provider=voyage
 VOYAGE_API_KEY = os.getenv("VOYAGE_API_KEY", "")
+
+VECTOR_FAISS_PATH = INDEX_DIR / "vectors.faiss"
+ID_MAP_PATH = INDEX_DIR / "id_map.json"
+EMB_META_PATH = INDEX_DIR / "emb_meta.json"
 
 TOP_K = 8                    # ile kandydatow z semantic search
 CONTEXT_BUDGET_CHUNKS = 12   # jawny budzet kontekstu przekazywanego do LLM

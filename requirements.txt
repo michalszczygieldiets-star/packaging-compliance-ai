@@ -1,16 +1,16 @@
-# Baza minimalna - rosnie fazami. Wersje doprecyzujemy przy instalacji (Faza 7),
-# bo Python 3.14 bywa opozniony z niektorymi wheelami.
+# Stack potwierdzony na Pythonie 3.14 (wheele OK). Wersje luzne dla MVP.
 python-dotenv
 requests
 
 # --- Parser HTML (Faza 4) ---
 beautifulsoup4
-lxml
 
-# --- Retrieval / vector store (Faza 7; wybor FAISS vs Chroma zaleznie od wheeli) ---
-# faiss-cpu
-# chromadb
+# --- Embeddings + retrieval (Faza 7-8) ---
+# fastembed = lokalne embeddingi ONNX (keyless, bez torcha); e5-large multilingual
+fastembed
+faiss-cpu
 numpy
+rank_bm25            # hybryda leksykalna (BM25) do fuzji RRF
 
 # --- LLM + structured output (Faza 11) ---
 anthropic
