@@ -79,14 +79,16 @@ CONTEXT_BUDGET_CHUNKS = 12   # jawny budzet kontekstu przekazywanego do LLM
 # =============================================================
 #  LLM (Anthropic)
 # =============================================================
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+# .strip() KLUCZOWE: sekret wklejony w panelu hostingu miewa koncowa spacje/nowa
+# linie -> "Illegal header value" w httpx -> APIConnectionError. Strip to naprawia.
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "").strip()
 # Domyslnie Opus 5 - poprawnosc prawna to priorytet #1. Koszt kontrolowany
 # spend-capem w Anthropic Console. Mozna zmienic na claude-sonnet-5 dla nizszego
 # kosztu przez ustawienie ANTHROPIC_MODEL w .env.
-ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-opus-5")
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-opus-5").strip()
 
 # =============================================================
 #  Aplikacja / dostep
 # =============================================================
-APP_PASSWORD = os.getenv("APP_PASSWORD", "")
+APP_PASSWORD = os.getenv("APP_PASSWORD", "").strip()
 DEBUG_MODE = os.getenv("DEBUG_MODE", "false").strip().lower() in {"1", "true", "yes"}
