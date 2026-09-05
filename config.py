@@ -13,7 +13,10 @@ from pathlib import Path
 try:
     from dotenv import load_dotenv
 
-    load_dotenv()
+    # override=True: .env jest nadrzedny nad ewentualnym starym globalnym
+    # ANTHROPIC_API_KEY w srodowisku systemowym (inaczej Streamlit bral stary
+    # klucz -> 401). Sciezka wprost, by dzialalo niezaleznie od cwd.
+    load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env", override=True)
 except Exception:
     pass
 

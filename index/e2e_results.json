@@ -1,0 +1,69 @@
+[
+ {
+  "q": "Czy tacka PP do dania gotowego bedzie mogla byc uzywana po 2030 roku?",
+  "insufficient": true,
+  "confidence": "low",
+  "legal_basis": [
+   "Art. 6 ust. 10",
+   "Art. 70 ust. 4"
+  ],
+  "halluc_art": [],
+  "halluc_anx": []
+ },
+ {
+  "q": "Czy opakowania kompostowalne sa wyjatkiem od wymogow recyklingu?",
+  "insufficient": false,
+  "confidence": "high",
+  "legal_basis": [
+   "Art. 6 ust. 1",
+   "Art. 9 ust. 1",
+   "Art. 9 ust. 2",
+   "Art. 9 ust. 3",
+   "Art. 3 ust. 1 pkt 1 lit. f)",
+   "Art. 3 ust. 1 pkt 1 lit. g)"
+  ],
+  "halluc_art": [],
+  "halluc_anx": []
+ },
+ {
+  "q": "Jak wykazac zgodnosc opakowania z wymogami recyklingu?",
+  "insufficient": true,
+  "confidence": "low",
+  "legal_basis": [
+   "Zalacznik II, Tabela 3",
+   "Art. 6 ust. 4 lit. a",
+   "Art. 6 ust. 4 lit. b",
+   "Art. 6 ust. 4 lit. c",
+   "Art. 6 ust. 5",
+   "Art. 3 ust. 1 pkt 38"
+  ],
+  "halluc_art": [],
+  "halluc_anx": []
+ },
+ {
+  "q": "Co z selektywna zbiorka odpadow opakowaniowych?",
+  "insufficient": false,
+  "confidence": "medium",
+  "legal_basis": [
+   "Art. 48 ust. 1",
+   "Art. 48 ust. 3",
+   "Art. 43 ust. 3"
+  ],
+  "halluc_art": [],
+  "halluc_anx": []
+ },
+ {
+  "q": "Jakie klasy mozliwosci recyklingu beda obowiazywac i od kiedy?",
+  "insufficient": false,
+  "confidence": "medium",
+  "legal_basis": [
+   "Zalacznik II, tabela 3 (Klasy wydajności recyklingu)",
+   "Art. 6 ust. 4 lit. a",
+   "Art. 6 ust. 4 lit. b",
+   "Art. 6 ust. 4 lit. c",
+   "Art. 6 ust. 5"
+  ],
+  "halluc_art": [],
+  "halluc_anx": []
+ }
+]

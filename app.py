@@ -49,8 +49,10 @@ def _check_access() -> bool:
         return True
     st.title("Packaging Compliance AI — PPWR")
     st.caption("Dostęp chroniony hasłem.")
-    pwd = st.text_input("Hasło dostępu", type="password")
-    if st.button("Wejdź"):
+    with st.form("login"):
+        pwd = st.text_input("Hasło dostępu", type="password")
+        entered = st.form_submit_button("Wejdź")
+    if entered:
         if pwd == config.APP_PASSWORD:
             st.session_state["_authed"] = True
             st.rerun()
