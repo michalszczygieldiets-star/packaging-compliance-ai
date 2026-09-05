@@ -50,9 +50,10 @@ naprawiła przypadki, gdzie czysty wektor dryfował semantycznie.
 - Streamlit UI z access gate, historią, panelem DEBUG.
 
 ## Co wymaga uwagi / ograniczenia
-- **Embeddingi lokalne w RAM.** e5-large (2,2 GB) daje najlepszą jakość, ale nie
-  mieści się na darmowym Streamlit Cloud (~1 GB). Wariant deployowalny:
-  mniejszy model multilingual (patrz sekcja Deployment w README).
+- **Embeddingi lokalne w RAM.** Domyślny model to `paraphrase-multilingual-
+  MiniLM-L12-v2` (384d, ~0,22 GB) — mieści się na darmowym Streamlit Cloud i
+  utrzymuje **24/24** na golden dzięki hybrydzie BM25. e5-large (2,2 GB) daje
+  podobną jakość, ale wymaga hostingu z większym RAM (np. HF Spaces).
 - **Akty delegowane/wykonawcze poza bazą.** Wiele wymagań art. 6 (kryteria DfR,
   klasy, progi) ma być doprecyzowanych w przyszłych aktach — system to sygnalizuje
   i NIE generuje ich treści.

@@ -57,8 +57,11 @@ HARD_SPLIT_TOKENS = 1200
 EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "local")  # local | voyage
 # Lokalny model (fastembed / ONNX, bez torcha, keyless). e5 wymaga prefiksow
 # "query:"/"passage:". Na deployment mozna zejsc do lzejszego multilingual.
+# MiniLM-L12 (384d, ~0.22 GB) - miesci sie na darmowym hostingu i utrzymuje
+# 24/24 na golden dziecki hybrydzie BM25. e5-large (2,2 GB) daje podobna jakosc,
+# ale nie miesci sie w ~1 GB RAM darmowego Streamlit Cloud.
 LOCAL_EMBEDDING_MODEL = os.getenv(
-    "LOCAL_EMBEDDING_MODEL", "intfloat/multilingual-e5-large"
+    "LOCAL_EMBEDDING_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 )
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "voyage-3.5")  # gdy provider=voyage
 VOYAGE_API_KEY = os.getenv("VOYAGE_API_KEY", "")

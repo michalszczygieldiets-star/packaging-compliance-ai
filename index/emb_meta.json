@@ -1,6 +1,6 @@
 {
- "model": "intfloat/multilingual-e5-large",
- "dim": 1024,
+ "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "dim": 384,
  "count": 652,
  "provider": "local"
 }

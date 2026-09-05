@@ -67,11 +67,11 @@ firmowych — źródła wyłącznie publiczne. **Ustaw spend cap w Anthropic Con
    `os.environ`, skąd czyta je `config.py`.
 4. Deploy. Dostęp chroni hasło aplikacji (`APP_PASSWORD`).
 
-> **Pamięć RAM.** Model embeddingów ładuje się do RAM przy każdym zapytaniu.
-> Domyślny `intfloat/multilingual-e5-large` (2,2 GB) przekracza darmowy tier
-> Streamlit (~1 GB) — do darmowego hostingu użyj mniejszego modelu przez env
-> `LOCAL_EMBEDDING_MODEL` (patrz MVP_REPORT) i przebuduj indeks, albo hostuj tam,
-> gdzie jest więcej RAM (HF Spaces free = 16 GB).
+> **Pamięć RAM.** Domyślny model embeddingów `paraphrase-multilingual-MiniLM-
+> L12-v2` (~0,22 GB) mieści się na darmowym tierze Streamlit Cloud. Dla maks.
+> jakości można ustawić `LOCAL_EMBEDDING_MODEL=intfloat/multilingual-e5-large`
+> (2,2 GB) i przebudować indeks (`python ingest.py`), ale wymaga to hostingu z
+> większym RAM (np. HF Spaces free = 16 GB).
 
 ## Ograniczenia
 Jeden akt prawny; akty delegowane/wykonawcze poza bazą (system to sygnalizuje,
