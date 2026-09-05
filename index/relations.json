@@ -1,0 +1,3837 @@
+[
+ {
+  "source": "EU2025_40_ART3_P1_32",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART3_P1_39",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P11"
+ },
+ {
+  "source": "EU2025_40_ART3_P1_39",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART3_P1_39",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S2"
+ },
+ {
+  "source": "EU2025_40_ART3_P1_68",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART62_P1"
+ },
+ {
+  "source": "EU2025_40_ART3_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ART3_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_I"
+ },
+ {
+  "source": "EU2025_40_ART4_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART5_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART5_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART65"
+ },
+ {
+  "source": "EU2025_40_ART5_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART5_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART65"
+ },
+ {
+  "source": "EU2025_40_ART5_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ART5_P5",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART5_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P4"
+ },
+ {
+  "source": "EU2025_40_ART5_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P5"
+ },
+ {
+  "source": "EU2025_40_ART5_P6",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART5_P7",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART5_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P4"
+ },
+ {
+  "source": "EU2025_40_ART5_P8",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART5_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P4"
+ },
+ {
+  "source": "EU2025_40_ART5_P8",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART5_P8",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ART5_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART6_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P1"
+ },
+ {
+  "source": "EU2025_40_ART6_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P5"
+ },
+ {
+  "source": "EU2025_40_ART6_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART6_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P5"
+ },
+ {
+  "source": "EU2025_40_ART6_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART6_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P5"
+ },
+ {
+  "source": "EU2025_40_ART6_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P10"
+ },
+ {
+  "source": "EU2025_40_ART6_P3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART6_P3",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ART6_P4_A",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART6_P4_A",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ART6_P4_A",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S4_PART2"
+ },
+ {
+  "source": "EU2025_40_ART6_P4_A",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ART6_P4_B",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P2"
+ },
+ {
+  "source": "EU2025_40_ART6_P4_C",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART6_P4_C",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ART6_P4_D",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P1"
+ },
+ {
+  "source": "EU2025_40_ART6_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART6_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART6_P5",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART6_P5",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S2"
+ },
+ {
+  "source": "EU2025_40_ART6_P5",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ART6_P6",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART6_P6",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART6_P6",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XII"
+ },
+ {
+  "source": "EU2025_40_ART6_P6",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S2"
+ },
+ {
+  "source": "EU2025_40_ART6_P6",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ART6_P8",
+  "type": "references_article",
+  "target": "EU2025_40_ART45"
+ },
+ {
+  "source": "EU2025_40_ART6_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART6_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P5"
+ },
+ {
+  "source": "EU2025_40_ART6_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P11"
+ },
+ {
+  "source": "EU2025_40_ART6_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P2"
+ },
+ {
+  "source": "EU2025_40_ART6_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P3"
+ },
+ {
+  "source": "EU2025_40_ART6_P9",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART6_P10",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P2"
+ },
+ {
+  "source": "EU2025_40_ART6_P10",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P3"
+ },
+ {
+  "source": "EU2025_40_ART6_P10",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART6_P10",
+  "type": "exception_to",
+  "target": "EU2025_40_ART6_P2"
+ },
+ {
+  "source": "EU2025_40_ART6_P10",
+  "type": "exception_to",
+  "target": "EU2025_40_ART6_P3"
+ },
+ {
+  "source": "EU2025_40_ART6_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P8"
+ },
+ {
+  "source": "EU2025_40_ART6_P12",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P11"
+ },
+ {
+  "source": "EU2025_40_ART7_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P8"
+ },
+ {
+  "source": "EU2025_40_ART7_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART7_P1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ART7_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART7_P2",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ART7_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P1"
+ },
+ {
+  "source": "EU2025_40_ART7_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P2"
+ },
+ {
+  "source": "EU2025_40_ART7_P6",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART7_P7",
+  "type": "references_article",
+  "target": "EU2025_40_ART45"
+ },
+ {
+  "source": "EU2025_40_ART7_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART7_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P3"
+ },
+ {
+  "source": "EU2025_40_ART7_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P9"
+ },
+ {
+  "source": "EU2025_40_ART7_P8",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART7_P9",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART7_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P8"
+ },
+ {
+  "source": "EU2025_40_ART7_P10",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART7_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P8"
+ },
+ {
+  "source": "EU2025_40_ART7_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P1"
+ },
+ {
+  "source": "EU2025_40_ART7_P12",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART7_P12",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P1"
+ },
+ {
+  "source": "EU2025_40_ART7_P12",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P4"
+ },
+ {
+  "source": "EU2025_40_ART7_P13",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART7_P13",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P1"
+ },
+ {
+  "source": "EU2025_40_ART7_P13",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P2"
+ },
+ {
+  "source": "EU2025_40_ART7_P14",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P1"
+ },
+ {
+  "source": "EU2025_40_ART8_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P1"
+ },
+ {
+  "source": "EU2025_40_ART8_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P2"
+ },
+ {
+  "source": "EU2025_40_ART8_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ART8_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART8_P1"
+ },
+ {
+  "source": "EU2025_40_ART9_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P1"
+ },
+ {
+  "source": "EU2025_40_ART9_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART3"
+ },
+ {
+  "source": "EU2025_40_ART9_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P6"
+ },
+ {
+  "source": "EU2025_40_ART9_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P1"
+ },
+ {
+  "source": "EU2025_40_ART9_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ART9_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ART9_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P1"
+ },
+ {
+  "source": "EU2025_40_ART9_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P2"
+ },
+ {
+  "source": "EU2025_40_ART9_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P1"
+ },
+ {
+  "source": "EU2025_40_ART9_P4",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART9_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P1"
+ },
+ {
+  "source": "EU2025_40_ART9_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P2"
+ },
+ {
+  "source": "EU2025_40_ART9_P5",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_III"
+ },
+ {
+  "source": "EU2025_40_ART9_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P1"
+ },
+ {
+  "source": "EU2025_40_ART10_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IV"
+ },
+ {
+  "source": "EU2025_40_ART10_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART11"
+ },
+ {
+  "source": "EU2025_40_ART10_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART10_P1"
+ },
+ {
+  "source": "EU2025_40_ART10_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART10_P2"
+ },
+ {
+  "source": "EU2025_40_ART10_P4",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART10_P4",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IV"
+ },
+ {
+  "source": "EU2025_40_ART11_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ART11_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART11_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART11_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P1"
+ },
+ {
+  "source": "EU2025_40_ART11_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P1"
+ },
+ {
+  "source": "EU2025_40_ART11_P3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART12_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P1"
+ },
+ {
+  "source": "EU2025_40_ART12_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P2"
+ },
+ {
+  "source": "EU2025_40_ART12_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ART12_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P6"
+ },
+ {
+  "source": "EU2025_40_ART12_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P7"
+ },
+ {
+  "source": "EU2025_40_ART12_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P6"
+ },
+ {
+  "source": "EU2025_40_ART12_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P2"
+ },
+ {
+  "source": "EU2025_40_ART12_P3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART12_P3",
+  "type": "exception_to",
+  "target": "EU2025_40_ART12_P2"
+ },
+ {
+  "source": "EU2025_40_ART12_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P8"
+ },
+ {
+  "source": "EU2025_40_ART12_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART7"
+ },
+ {
+  "source": "EU2025_40_ART12_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P6"
+ },
+ {
+  "source": "EU2025_40_ART12_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P1"
+ },
+ {
+  "source": "EU2025_40_ART12_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P1"
+ },
+ {
+  "source": "EU2025_40_ART12_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P2"
+ },
+ {
+  "source": "EU2025_40_ART12_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P2"
+ },
+ {
+  "source": "EU2025_40_ART12_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART12_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P1"
+ },
+ {
+  "source": "EU2025_40_ART12_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART12_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P1"
+ },
+ {
+  "source": "EU2025_40_ART12_P10",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ART12_P12",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P1"
+ },
+ {
+  "source": "EU2025_40_ART13_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART13_P2"
+ },
+ {
+  "source": "EU2025_40_ART13_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P6"
+ },
+ {
+  "source": "EU2025_40_ART13_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART13_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART13_P1"
+ },
+ {
+  "source": "EU2025_40_ART14",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART15_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART15_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART38"
+ },
+ {
+  "source": "EU2025_40_ART15_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART39"
+ },
+ {
+  "source": "EU2025_40_ART15_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART15_P3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART15_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART38"
+ },
+ {
+  "source": "EU2025_40_ART15_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P1"
+ },
+ {
+  "source": "EU2025_40_ART15_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P5"
+ },
+ {
+  "source": "EU2025_40_ART15_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P6"
+ },
+ {
+  "source": "EU2025_40_ART15_P8",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART15_P9",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART15_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P8"
+ },
+ {
+  "source": "EU2025_40_ART15_P9",
+  "type": "exception_to",
+  "target": "EU2025_40_ART15_P8"
+ },
+ {
+  "source": "EU2025_40_ART15_P10",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART16_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART16_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART16_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART16_P1"
+ },
+ {
+  "source": "EU2025_40_ART17_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P1"
+ },
+ {
+  "source": "EU2025_40_ART17_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART17_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART18_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART18_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P5"
+ },
+ {
+  "source": "EU2025_40_ART18_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P6"
+ },
+ {
+  "source": "EU2025_40_ART18_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART38"
+ },
+ {
+  "source": "EU2025_40_ART18_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART18_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART12"
+ },
+ {
+  "source": "EU2025_40_ART18_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART18_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART12"
+ },
+ {
+  "source": "EU2025_40_ART18_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART18_P3"
+ },
+ {
+  "source": "EU2025_40_ART18_P5",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART18_P6",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART18_P7",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART18_P7",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART18_P8",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART18_P9",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART19_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P5"
+ },
+ {
+  "source": "EU2025_40_ART19_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P6"
+ },
+ {
+  "source": "EU2025_40_ART19_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART18_P3"
+ },
+ {
+  "source": "EU2025_40_ART19_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART44"
+ },
+ {
+  "source": "EU2025_40_ART19_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART12"
+ },
+ {
+  "source": "EU2025_40_ART19_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P5"
+ },
+ {
+  "source": "EU2025_40_ART19_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P6"
+ },
+ {
+  "source": "EU2025_40_ART19_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART18_P3"
+ },
+ {
+  "source": "EU2025_40_ART19_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART19_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART19_P5",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART19_P6",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART20",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART21",
+  "type": "references_article",
+  "target": "EU2025_40_ART15"
+ },
+ {
+  "source": "EU2025_40_ART22_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART22_P1"
+ },
+ {
+  "source": "EU2025_40_ART23",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P10"
+ },
+ {
+  "source": "EU2025_40_ART23",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XII"
+ },
+ {
+  "source": "EU2025_40_ART23",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ART24_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART24_P2"
+ },
+ {
+  "source": "EU2025_40_ART24_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART24_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART24_P1"
+ },
+ {
+  "source": "EU2025_40_ART24_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART24_P1"
+ },
+ {
+  "source": "EU2025_40_ART24_P5",
+  "type": "references_article",
+  "target": "EU2025_40_ART10"
+ },
+ {
+  "source": "EU2025_40_ART24_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART24_P1"
+ },
+ {
+  "source": "EU2025_40_ART24_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART24_P1"
+ },
+ {
+  "source": "EU2025_40_ART24_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART24_P5"
+ },
+ {
+  "source": "EU2025_40_ART25_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_V"
+ },
+ {
+  "source": "EU2025_40_ART25_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART4_P2"
+ },
+ {
+  "source": "EU2025_40_ART25_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_V"
+ },
+ {
+  "source": "EU2025_40_ART25_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P2"
+ },
+ {
+  "source": "EU2025_40_ART25_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART25_P1"
+ },
+ {
+  "source": "EU2025_40_ART25_P4",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_V"
+ },
+ {
+  "source": "EU2025_40_ART25_P4",
+  "type": "exception_to",
+  "target": "EU2025_40_ART25_P1"
+ },
+ {
+  "source": "EU2025_40_ART25_P5",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_V"
+ },
+ {
+  "source": "EU2025_40_ART25_P6",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_V"
+ },
+ {
+  "source": "EU2025_40_ART26_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART26_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P3"
+ },
+ {
+  "source": "EU2025_40_ART26_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART26_P1"
+ },
+ {
+  "source": "EU2025_40_ART26_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART27_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART27_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART27_P4",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART28_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART28_P3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART28_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART28_P1"
+ },
+ {
+  "source": "EU2025_40_ART29_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART29_P2",
+  "type": "exception_to",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART29_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART29_P3",
+  "type": "exception_to",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART29_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART2_P2"
+ },
+ {
+  "source": "EU2025_40_ART29_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART29_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P6"
+ },
+ {
+  "source": "EU2025_40_ART29_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P6"
+ },
+ {
+  "source": "EU2025_40_ART29_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P7"
+ },
+ {
+  "source": "EU2025_40_ART29_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P6"
+ },
+ {
+  "source": "EU2025_40_ART29_P10",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART29_P10",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P6"
+ },
+ {
+  "source": "EU2025_40_ART29_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P6"
+ },
+ {
+  "source": "EU2025_40_ART29_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P9"
+ },
+ {
+  "source": "EU2025_40_ART29_P12",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART30_P2"
+ },
+ {
+  "source": "EU2025_40_ART29_P12",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART29_P12",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P6"
+ },
+ {
+  "source": "EU2025_40_ART29_P13",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART29_P14",
+  "type": "references_article",
+  "target": "EU2025_40_ART43"
+ },
+ {
+  "source": "EU2025_40_ART29_P15",
+  "type": "references_article",
+  "target": "EU2025_40_ART51"
+ },
+ {
+  "source": "EU2025_40_ART29_P15",
+  "type": "references_article",
+  "target": "EU2025_40_ART43"
+ },
+ {
+  "source": "EU2025_40_ART29_P15",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART29_P16",
+  "type": "references_article",
+  "target": "EU2025_40_ART51"
+ },
+ {
+  "source": "EU2025_40_ART29_P16",
+  "type": "references_article",
+  "target": "EU2025_40_ART43"
+ },
+ {
+  "source": "EU2025_40_ART29_P16",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P6"
+ },
+ {
+  "source": "EU2025_40_ART29_P18",
+  "type": "references_article",
+  "target": "EU2025_40_ART64"
+ },
+ {
+  "source": "EU2025_40_ART29_P18",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART30_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART30_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P5"
+ },
+ {
+  "source": "EU2025_40_ART30_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P6"
+ },
+ {
+  "source": "EU2025_40_ART30_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART33"
+ },
+ {
+  "source": "EU2025_40_ART30_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART30_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART29"
+ },
+ {
+  "source": "EU2025_40_ART30_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART29"
+ },
+ {
+  "source": "EU2025_40_ART30_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART30_P3"
+ },
+ {
+  "source": "EU2025_40_ART31_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART31_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART40"
+ },
+ {
+  "source": "EU2025_40_ART31_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART29"
+ },
+ {
+  "source": "EU2025_40_ART31_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART31_P1"
+ },
+ {
+  "source": "EU2025_40_ART31_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART31_P1"
+ },
+ {
+  "source": "EU2025_40_ART32_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART32_P1"
+ },
+ {
+  "source": "EU2025_40_ART33_P6",
+  "type": "references_article",
+  "target": "EU2025_40_ART51"
+ },
+ {
+  "source": "EU2025_40_ART33_P6",
+  "type": "references_article",
+  "target": "EU2025_40_ART43"
+ },
+ {
+  "source": "EU2025_40_ART33_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART33_P5"
+ },
+ {
+  "source": "EU2025_40_ART34_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART4"
+ },
+ {
+  "source": "EU2025_40_ART34_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P1"
+ },
+ {
+  "source": "EU2025_40_ART34_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P1"
+ },
+ {
+  "source": "EU2025_40_ART34_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P2"
+ },
+ {
+  "source": "EU2025_40_ART34_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P1"
+ },
+ {
+  "source": "EU2025_40_ART34_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P1"
+ },
+ {
+  "source": "EU2025_40_ART34_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P2"
+ },
+ {
+  "source": "EU2025_40_ART35",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART36_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART35"
+ },
+ {
+  "source": "EU2025_40_ART36_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART36_P1"
+ },
+ {
+  "source": "EU2025_40_ART36_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART37_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART37_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART37_P2"
+ },
+ {
+  "source": "EU2025_40_ART37_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART37_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART37_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART37_P2"
+ },
+ {
+  "source": "EU2025_40_ART37_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART37_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART37_P2"
+ },
+ {
+  "source": "EU2025_40_ART37_P5",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART38",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART38",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART39_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART39_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VIII"
+ },
+ {
+  "source": "EU2025_40_ART39_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART40_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P10"
+ },
+ {
+  "source": "EU2025_40_ART40_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P1"
+ },
+ {
+  "source": "EU2025_40_ART40_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART30"
+ },
+ {
+  "source": "EU2025_40_ART40_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P7"
+ },
+ {
+  "source": "EU2025_40_ART40_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P8"
+ },
+ {
+  "source": "EU2025_40_ART40_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART44"
+ },
+ {
+  "source": "EU2025_40_ART40_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART45"
+ },
+ {
+  "source": "EU2025_40_ART40_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART47"
+ },
+ {
+  "source": "EU2025_40_ART40_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART56"
+ },
+ {
+  "source": "EU2025_40_ART40_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART40_P1"
+ },
+ {
+  "source": "EU2025_40_ART41_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART43"
+ },
+ {
+  "source": "EU2025_40_ART41_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART41_P1"
+ },
+ {
+  "source": "EU2025_40_ART42_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART48"
+ },
+ {
+  "source": "EU2025_40_ART42_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART43"
+ },
+ {
+  "source": "EU2025_40_ART43_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART43_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P1"
+ },
+ {
+  "source": "EU2025_40_ART43_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P1"
+ },
+ {
+  "source": "EU2025_40_ART43_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P3"
+ },
+ {
+  "source": "EU2025_40_ART43_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P1"
+ },
+ {
+  "source": "EU2025_40_ART43_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P5"
+ },
+ {
+  "source": "EU2025_40_ART43_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P5"
+ },
+ {
+  "source": "EU2025_40_ART43_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P1"
+ },
+ {
+  "source": "EU2025_40_ART43_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P1"
+ },
+ {
+  "source": "EU2025_40_ART43_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P5"
+ },
+ {
+  "source": "EU2025_40_ART43_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P7"
+ },
+ {
+  "source": "EU2025_40_ART43_P8",
+  "type": "exception_to",
+  "target": "EU2025_40_ART43_P1"
+ },
+ {
+  "source": "EU2025_40_ART43_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P1"
+ },
+ {
+  "source": "EU2025_40_ART44_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P14"
+ },
+ {
+  "source": "EU2025_40_ART44_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART46_P1"
+ },
+ {
+  "source": "EU2025_40_ART44_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P1"
+ },
+ {
+  "source": "EU2025_40_ART44_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART45"
+ },
+ {
+  "source": "EU2025_40_ART44_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART40_P2"
+ },
+ {
+  "source": "EU2025_40_ART44_P5",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IX"
+ },
+ {
+  "source": "EU2025_40_ART44_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P5"
+ },
+ {
+  "source": "EU2025_40_ART44_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART40_P1"
+ },
+ {
+  "source": "EU2025_40_ART44_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P2"
+ },
+ {
+  "source": "EU2025_40_ART44_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P3"
+ },
+ {
+  "source": "EU2025_40_ART44_P7",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IX"
+ },
+ {
+  "source": "EU2025_40_ART44_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ART44_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P1"
+ },
+ {
+  "source": "EU2025_40_ART44_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P2"
+ },
+ {
+  "source": "EU2025_40_ART44_P8",
+  "type": "references_article",
+  "target": "EU2025_40_ART57"
+ },
+ {
+  "source": "EU2025_40_ART44_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P2"
+ },
+ {
+  "source": "EU2025_40_ART44_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P3"
+ },
+ {
+  "source": "EU2025_40_ART44_P8",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IX"
+ },
+ {
+  "source": "EU2025_40_ART44_P9",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IX"
+ },
+ {
+  "source": "EU2025_40_ART44_P10",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IX"
+ },
+ {
+  "source": "EU2025_40_ART44_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P2"
+ },
+ {
+  "source": "EU2025_40_ART44_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P5"
+ },
+ {
+  "source": "EU2025_40_ART44_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P6"
+ },
+ {
+  "source": "EU2025_40_ART44_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P7"
+ },
+ {
+  "source": "EU2025_40_ART44_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P8"
+ },
+ {
+  "source": "EU2025_40_ART44_P14",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART45_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART45_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART13"
+ },
+ {
+  "source": "EU2025_40_ART45_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P4"
+ },
+ {
+  "source": "EU2025_40_ART45_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ART45_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART44"
+ },
+ {
+  "source": "EU2025_40_ART45_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P1"
+ },
+ {
+  "source": "EU2025_40_ART45_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P2"
+ },
+ {
+  "source": "EU2025_40_ART45_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P4"
+ },
+ {
+  "source": "EU2025_40_ART45_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P4"
+ },
+ {
+  "source": "EU2025_40_ART45_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P4"
+ },
+ {
+  "source": "EU2025_40_ART45_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P13"
+ },
+ {
+  "source": "EU2025_40_ART45_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P7"
+ },
+ {
+  "source": "EU2025_40_ART45_P9",
+  "type": "references_article",
+  "target": "EU2025_40_ART4"
+ },
+ {
+  "source": "EU2025_40_ART45_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART45_P8"
+ },
+ {
+  "source": "EU2025_40_ART46_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART47"
+ },
+ {
+  "source": "EU2025_40_ART46_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART47_P3"
+ },
+ {
+  "source": "EU2025_40_ART46_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART48"
+ },
+ {
+  "source": "EU2025_40_ART46_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART46_P3"
+ },
+ {
+  "source": "EU2025_40_ART47_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART40_P2"
+ },
+ {
+  "source": "EU2025_40_ART47_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART47_P3"
+ },
+ {
+  "source": "EU2025_40_ART47_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P1"
+ },
+ {
+  "source": "EU2025_40_ART47_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P5"
+ },
+ {
+  "source": "EU2025_40_ART47_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART50"
+ },
+ {
+  "source": "EU2025_40_ART47_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART47_P2"
+ },
+ {
+  "source": "EU2025_40_ART47_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART47_P3"
+ },
+ {
+  "source": "EU2025_40_ART47_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART47_P6"
+ },
+ {
+  "source": "EU2025_40_ART48_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART48_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P1"
+ },
+ {
+  "source": "EU2025_40_ART48_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P1"
+ },
+ {
+  "source": "EU2025_40_ART48_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P1"
+ },
+ {
+  "source": "EU2025_40_ART49",
+  "type": "references_article",
+  "target": "EU2025_40_ART52"
+ },
+ {
+  "source": "EU2025_40_ART49",
+  "type": "references_article",
+  "target": "EU2025_40_ART7"
+ },
+ {
+  "source": "EU2025_40_ART50_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART50_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ART50_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P2"
+ },
+ {
+  "source": "EU2025_40_ART50_P3",
+  "type": "exception_to",
+  "target": "EU2025_40_ART50_P2"
+ },
+ {
+  "source": "EU2025_40_ART50_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P2"
+ },
+ {
+  "source": "EU2025_40_ART50_P4",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART50_P4",
+  "type": "exception_to",
+  "target": "EU2025_40_ART50_P2"
+ },
+ {
+  "source": "EU2025_40_ART50_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P1"
+ },
+ {
+  "source": "EU2025_40_ART50_P5",
+  "type": "references_article",
+  "target": "EU2025_40_ART48"
+ },
+ {
+  "source": "EU2025_40_ART50_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P2"
+ },
+ {
+  "source": "EU2025_40_ART50_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ART50_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P5"
+ },
+ {
+  "source": "EU2025_40_ART50_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ART50_P9",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P4"
+ },
+ {
+  "source": "EU2025_40_ART50_P10",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ART50_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P2"
+ },
+ {
+  "source": "EU2025_40_ART50_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ART50_P11",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_X"
+ },
+ {
+  "source": "EU2025_40_ART50_P12",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_X"
+ },
+ {
+  "source": "EU2025_40_ART51_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART27"
+ },
+ {
+  "source": "EU2025_40_ART51_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ART51_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ART51_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART29"
+ },
+ {
+  "source": "EU2025_40_ART51_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART51_P1"
+ },
+ {
+  "source": "EU2025_40_ART51_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_X"
+ },
+ {
+  "source": "EU2025_40_ART52_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ART52_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XI"
+ },
+ {
+  "source": "EU2025_40_ART52_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ART52_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P2"
+ },
+ {
+  "source": "EU2025_40_ART52_P3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XI"
+ },
+ {
+  "source": "EU2025_40_ART52_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ART53_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ART53_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART53_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P3"
+ },
+ {
+  "source": "EU2025_40_ART53_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P2"
+ },
+ {
+  "source": "EU2025_40_ART53_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P10"
+ },
+ {
+  "source": "EU2025_40_ART53_P11",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P3"
+ },
+ {
+  "source": "EU2025_40_ART54_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ART54_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ART55_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART46_P1"
+ },
+ {
+  "source": "EU2025_40_ART55_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P2"
+ },
+ {
+  "source": "EU2025_40_ART55_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART12"
+ },
+ {
+  "source": "EU2025_40_ART55_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART55_P2"
+ },
+ {
+  "source": "EU2025_40_ART55_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART55_P1"
+ },
+ {
+  "source": "EU2025_40_ART55_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART55_P1"
+ },
+ {
+  "source": "EU2025_40_ART56_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ART56_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P2"
+ },
+ {
+  "source": "EU2025_40_ART56_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XII"
+ },
+ {
+  "source": "EU2025_40_ART56_P1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S2"
+ },
+ {
+  "source": "EU2025_40_ART56_P1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S4_PART2"
+ },
+ {
+  "source": "EU2025_40_ART56_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART52"
+ },
+ {
+  "source": "EU2025_40_ART56_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XII"
+ },
+ {
+  "source": "EU2025_40_ART56_P2",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ART56_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P1"
+ },
+ {
+  "source": "EU2025_40_ART56_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P2"
+ },
+ {
+  "source": "EU2025_40_ART56_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART56_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P1"
+ },
+ {
+  "source": "EU2025_40_ART56_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P2"
+ },
+ {
+  "source": "EU2025_40_ART56_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART56_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART56_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P7"
+ },
+ {
+  "source": "EU2025_40_ART56_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P11"
+ },
+ {
+  "source": "EU2025_40_ART56_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P2"
+ },
+ {
+  "source": "EU2025_40_ART56_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART56_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P1"
+ },
+ {
+  "source": "EU2025_40_ART56_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P2"
+ },
+ {
+  "source": "EU2025_40_ART57_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ART57_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART56"
+ },
+ {
+  "source": "EU2025_40_ART57_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART57_P1"
+ },
+ {
+  "source": "EU2025_40_ART57_P2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XII"
+ },
+ {
+  "source": "EU2025_40_ART58_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P1"
+ },
+ {
+  "source": "EU2025_40_ART58_P2",
+  "type": "exception_to",
+  "target": "EU2025_40_ART58_P1"
+ },
+ {
+  "source": "EU2025_40_ART58_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P1"
+ },
+ {
+  "source": "EU2025_40_ART58_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART61_P1"
+ },
+ {
+  "source": "EU2025_40_ART58_P6",
+  "type": "references_article",
+  "target": "EU2025_40_ART36"
+ },
+ {
+  "source": "EU2025_40_ART58_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P5"
+ },
+ {
+  "source": "EU2025_40_ART58_P7",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P5"
+ },
+ {
+  "source": "EU2025_40_ART58_P8",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P5"
+ },
+ {
+  "source": "EU2025_40_ART59_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P5"
+ },
+ {
+  "source": "EU2025_40_ART59_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P6"
+ },
+ {
+  "source": "EU2025_40_ART59_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART59_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART58"
+ },
+ {
+  "source": "EU2025_40_ART59_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART59_P1"
+ },
+ {
+  "source": "EU2025_40_ART59_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART36"
+ },
+ {
+  "source": "EU2025_40_ART59_P4",
+  "type": "references_article",
+  "target": "EU2025_40_ART37"
+ },
+ {
+  "source": "EU2025_40_ART60_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART58"
+ },
+ {
+  "source": "EU2025_40_ART60_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART60_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART60_P1"
+ },
+ {
+  "source": "EU2025_40_ART60_P2",
+  "type": "exception_to",
+  "target": "EU2025_40_ART60_P1"
+ },
+ {
+  "source": "EU2025_40_ART60_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART60_P1"
+ },
+ {
+  "source": "EU2025_40_ART60_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART60_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P3"
+ },
+ {
+  "source": "EU2025_40_ART61_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P5"
+ },
+ {
+  "source": "EU2025_40_ART61_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART61_P1"
+ },
+ {
+  "source": "EU2025_40_ART61_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART61_P1"
+ },
+ {
+  "source": "EU2025_40_ART61_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART58_P6"
+ },
+ {
+  "source": "EU2025_40_ART61_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART61_P1"
+ },
+ {
+  "source": "EU2025_40_ART61_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART61_P3"
+ },
+ {
+  "source": "EU2025_40_ART61_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART61_P5"
+ },
+ {
+  "source": "EU2025_40_ART61_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART61_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART61_P4"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART15_P6"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART18_P3"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART28_P1"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART28_P2"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART28_P3"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART12"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART15"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART24"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART27"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART29"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART32"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART33"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_article",
+  "target": "EU2025_40_ART7"
+ },
+ {
+  "source": "EU2025_40_ART62_P1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ART62_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART62_P1"
+ },
+ {
+  "source": "EU2025_40_ART62_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART68"
+ },
+ {
+  "source": "EU2025_40_ART62_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART62_P1"
+ },
+ {
+  "source": "EU2025_40_ART63_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ART63_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART63_P1"
+ },
+ {
+  "source": "EU2025_40_ART63_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART63_P5",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART63_P1"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P7"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P8"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P6"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P9"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P12"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P13"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P2"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P10"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P12"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P13"
+ },
+ {
+  "source": "EU2025_40_ART64_P2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P18"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P7"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P8"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P6"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P9"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P12"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P13"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P2"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P10"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P12"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P13"
+ },
+ {
+  "source": "EU2025_40_ART64_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P18"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P7"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P6"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P9"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P12"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P13"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P2"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P10"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P12"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P13"
+ },
+ {
+  "source": "EU2025_40_ART64_P6",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P18"
+ },
+ {
+  "source": "EU2025_40_ART65_P3",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ART66",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ART67",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART25_P1"
+ },
+ {
+  "source": "EU2025_40_ART67",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART25_P6"
+ },
+ {
+  "source": "EU2025_40_ART67",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P5"
+ },
+ {
+  "source": "EU2025_40_ART67",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART13_P1"
+ },
+ {
+  "source": "EU2025_40_ART67",
+  "type": "references_article",
+  "target": "EU2025_40_ART13"
+ },
+ {
+  "source": "EU2025_40_ART67",
+  "type": "references_article",
+  "target": "EU2025_40_ART2"
+ },
+ {
+  "source": "EU2025_40_ART67",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_V"
+ },
+ {
+  "source": "EU2025_40_ART68_P2",
+  "type": "references_article",
+  "target": "EU2025_40_ART24"
+ },
+ {
+  "source": "EU2025_40_ART68_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART68_P1"
+ },
+ {
+  "source": "EU2025_40_ART68_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART68_P2"
+ },
+ {
+  "source": "EU2025_40_ART70_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P6"
+ },
+ {
+  "source": "EU2025_40_ART70_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P2"
+ },
+ {
+  "source": "EU2025_40_ART70_P1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P3"
+ },
+ {
+  "source": "EU2025_40_ART70_P3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P8"
+ },
+ {
+  "source": "EU2025_40_ART70_P4",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART70_P3"
+ },
+ {
+  "source": "EU2025_40_ART70_P4",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_V"
+ },
+ {
+  "source": "EU2025_40_ART70_P5",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XIII"
+ },
+ {
+  "source": "EU2025_40_ART71",
+  "type": "references_article",
+  "target": "EU2025_40_ART67"
+ },
+ {
+  "source": "EU2025_40_ANX_I_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_I_S1_PART1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_I"
+ },
+ {
+  "source": "EU2025_40_ANX_I_S2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S1",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S2",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S2",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S2"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S2",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S3",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S3",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S3",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S4_PART2"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S4_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S4_PART1",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S4_PART1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S4_PART2"
+ },
+ {
+  "source": "EU2025_40_ANX_II_S4_PART1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ANX_III",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_III"
+ },
+ {
+  "source": "EU2025_40_ANX_IV_S1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_IV_S1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IV"
+ },
+ {
+  "source": "EU2025_40_ANX_IV_S2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART3_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_V_S1_PART1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_V"
+ },
+ {
+  "source": "EU2025_40_ANX_VI_S1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VI"
+ },
+ {
+  "source": "EU2025_40_ANX_VI_S2_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_VII",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ANX_VII",
+  "type": "references_article",
+  "target": "EU2025_40_ART36"
+ },
+ {
+  "source": "EU2025_40_ANX_VII",
+  "type": "references_article",
+  "target": "EU2025_40_ART37"
+ },
+ {
+  "source": "EU2025_40_ANX_VII",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ANX_VII",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VII"
+ },
+ {
+  "source": "EU2025_40_ANX_VIII",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_VIII"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART46_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S1_PART1",
+  "type": "references_article",
+  "target": "EU2025_40_ART44"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S1_PART1",
+  "type": "references_article",
+  "target": "EU2025_40_ART45"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S1_PART1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IX"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART46_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART45"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART44"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART45"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P7"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P8"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART44_P10"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART2",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XII"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART2",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART2",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S2"
+ },
+ {
+  "source": "EU2025_40_ANX_IX_S2_PART2",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ANX_X_S1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_X"
+ },
+ {
+  "source": "EU2025_40_ANX_XI",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XI",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XI",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XI"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XII"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART1",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S1"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S2"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S3"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART1",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S4_PART2"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART50_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XII_S1_PART2",
+  "type": "references_table",
+  "target": "EU2025_40_ANX_II_S4_PART2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART1_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART1_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART1_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART2_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART2_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART4_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART43_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART34_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART55_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART4_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART10_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART51_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART51_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P15"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART29_P16"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART54_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART54_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART1",
+  "type": "references_article",
+  "target": "EU2025_40_ART3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART46_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P7"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P10"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART52_P6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART6_P11"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P7"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P8"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P9"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P10"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART53_P11"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P7"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART7_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P7"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART8_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART8_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART8"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART55_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART4_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART36_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART37_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART9_P6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART10_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P7"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART57_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART51_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART60_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART12_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART56_P8"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART42_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART16_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART16_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART4_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART19_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART19_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART41"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART44"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART10"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART13"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART14"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART15"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART18"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART2",
+  "type": "references_article",
+  "target": "EU2025_40_ART20"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART21"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART65_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART64_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART64_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART64_P3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART64_P4"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART64_P5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART64_P6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART22_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART22_P2"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART22"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART11_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART48_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_paragraph",
+  "target": "EU2025_40_ART5_P1"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART20"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART23"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART24"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART71"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART25"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART10"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART5"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART11"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART6"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART3"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_article",
+  "target": "EU2025_40_ART9"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_I"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_II"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_IV"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_III"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XII"
+ },
+ {
+  "source": "EU2025_40_ANX_XIII_S1_PART3",
+  "type": "references_annex",
+  "target": "EU2025_40_ANX_XI"
+ }
+]

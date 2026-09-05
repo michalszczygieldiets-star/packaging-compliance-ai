@@ -1,4 +1,4 @@
-# --- Secrets ---
+# --- Secrets (NIGDY w repo) ---
 .env
 .env.local
 *.key
@@ -12,21 +12,13 @@ __pycache__/
 venv/
 env/
 
-# --- RAG artifacts (regenerowalne przez ingest.py) ---
-index/*.faiss
-index/*.pkl
-index/*.json
-!index/.gitkeep
-
-# --- Raw source cache (duże pliki; canonical pobierany/wrzucany lokalnie) ---
-data/raw/*.pdf
-data/raw/*.html
-data/raw/*.xml
-!data/raw/.gitkeep
-
 # --- OS / IDE ---
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
 *.log
+
+# UWAGA: index/ (chunks.json, vectors.faiss, id_map.json, emb_meta.json) oraz
+# data/raw/ppwr_pl.html SA SLEDZONE celowo - to deployowalne artefakty (publiczne
+# prawo, bez sekretow). Deploy nie przebudowuje indeksu.
