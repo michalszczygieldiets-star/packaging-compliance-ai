@@ -8,6 +8,11 @@ wyjątkami, terminami i praktycznym znaczeniem — wyłącznie na bazie retrieve
 context, z guardrailami przeciw halucynacji podstawy prawnej. Dostęp przez
 przeglądarkę (Streamlit), chroniony hasłem.
 
+**Status: WDROŻONY i działający.** MVP jest live na Streamlit Community Cloud,
+zweryfikowany z zewnętrznej przeglądarki (logowanie hasłem + 3 pytania z
+poprawną podstawą prawną: art. 6 ust. 3 / klasy A-C, art. 9 / kompostowalne,
+art. 48 / selektywna zbiórka).
+
 ## Architektura
 Legal-structure-aware RAG (własny kod, bez LangChain/LlamaIndex):
 1. **Canonical source** — oficjalny Formex-HTML EUR-Lex (PL), 1,32 MB.
@@ -63,7 +68,14 @@ naprawiła przypadki, gdzie czysty wektor dryfował semantycznie.
 
 ## Ryzyka prawne i techniczne
 - Narzędzie wspomagające, nie porada prawna — finalna zgodność wymaga weryfikacji.
-- Python 3.14 — stack zweryfikowany (fastembed/faiss/bs4 działają).
+- Python 3.14 — stack zweryfikowany (fastembed/faiss/bs4 działają lokalnie i na
+  Streamlit Cloud).
+- Lekcja z deploymentu: sekret wklejony w panelu hostingu miewa końcową
+  spację/nową linię → `Illegal header value` → `APIConnectionError`. Rozwiązane
+  przez `.strip()` sekretów w `config.py`.
+- Bezpieczeństwo: nie wyświetlać pełnych tracebacków w UI (mogą zawierać wartość
+  nagłówka Authorization = klucz). W MVP usunięto; przy incydencie ekspozycji
+  klucza — rotacja w Anthropic Console.
 
 ## Koszty MVP
 - Embeddingi: lokalne, keyless (0 zł).
