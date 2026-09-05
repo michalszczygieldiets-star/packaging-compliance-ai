@@ -134,7 +134,10 @@ def main():
             except RuntimeError as e:
                 st.error(str(e))
             except Exception as e:  # noqa: BLE001
-                st.error(f"Błąd analizy: {e}")
+                import traceback
+                st.error(f"Błąd analizy [{type(e).__name__}]: {e}")
+                with st.expander("Szczegóły techniczne (traceback)"):
+                    st.code(traceback.format_exc())
 
     for i, (question, res) in enumerate(st.session_state["history"]):
         if i > 0:
