@@ -69,6 +69,11 @@ z kontekstu. Gdy insufficient_context=true, w answer napisz krotko czego brakuje
 """
 
 
+# Limit dlugosci pojedynczego fragmentu w kontekscie (oszczednosc tokenow wejscia).
+# Najdluzsze jednostki (definicje art. 3, sekcje zalacznikow) sa przycinane.
+MAX_SRC_CHARS = 2500
+
+
 def _format_sources(sources: list[dict]) -> str:
     """Buduje blok KONTEKST z provenance kazdego fragmentu."""
     lines = []
@@ -77,7 +82,10 @@ def _format_sources(sources: list[dict]) -> str:
         tag = {"normative": "NORMA", "annex": "ZALACZNIK",
                "recital": "MOTYW (nie jest samodzielna podstawa)"}.get(func, func or "?")
         cit = c.get("citation") or c.get("stable_chunk_id")
-        lines.append(f"[{i}] ({tag}) {cit}  <id:{c.get('stable_chunk_id')}>\n{c.get('text','')}")
+        text = c.get("text", "") or ""
+        if len(text) > MAX_SRC_CHARS:
+            text = text[:MAX_SRC_CHARS] + " […fragment przycięty]"
+        lines.append(f"[{i}] ({tag}) {cit}  <id:{c.get('stable_chunk_id')}>\n{text}")
     return "\n\n".join(lines)
 
 
@@ -102,9 +110,12 @@ def generate_answer(question: str, sources: list[dict], model: str | None = None
         f"PYTANIE:\n{question}\n\n"
         f"KONTEKST (jedyne dozwolone zrodla):\n{_format_sources(sources)}"
     )
+    # Koszt: thinking wylaczone (zadanie = wyciaganie z podanego tekstu, nie
+    # gleboka analiza) + niski max_tokens. To glowne oszczednosci na wyjsciu.
     resp = client.messages.parse(
         model=model or ANTHROPIC_MODEL,
-        max_tokens=16000,
+        max_tokens=4000,
+        thinking={"type": "disabled"},
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user}],
         output_format=RagAnswer,

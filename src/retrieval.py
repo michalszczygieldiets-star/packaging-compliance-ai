@@ -256,13 +256,15 @@ def _resolve_target(target: str) -> list[dict]:
     return []
 
 
-def expand_context(query: str, budget: int = 14, primary_k: int = 5,
-                   ref_cap: int = 8) -> dict:
+def expand_context(query: str, budget: int = 16, primary_k: int = 5,
+                   ref_cap: int = 6, sibling_cap: int = 7) -> dict:
     """Faza 10: kolejnosc gwarantuje przetrwanie komplementarnych jednostek.
-    context = [exact] + [czolowe seedy] + [ICH bezposrednie references] +
-    [reszta fuzji], dedup, w jawnym budzecie. Dzieki temu np. Zalacznik II
-    i art. 48 (references art. 6) nie sa wypychane przez luzne chunki fuzji.
+    context = [exact] + [czolowe seedy] + [pozostale USTEPY tego artykulu] +
+    [ICH references] + [reszta fuzji], dedup, w jawnym budzecie. Rodzenstwo
+    ustepow zapobiega rozcienczeniu artykulu-seeda przez luzne chunki fuzji
+    (kluczowe dla pytan ramowych typu 'tacka PP po 2030' -> art. 6).
     Zwraca {citation, seeds, context, added_refs}."""
+    chunks_all, _ = _load_chunks()
     r = retrieve(query)
     exact = r["exact"]
     fused = r["ranked"]
@@ -284,6 +286,19 @@ def expand_context(query: str, budget: int = 14, primary_k: int = 5,
     primary = [c for c in fused if c["stable_chunk_id"] not in seen][:primary_k]
     for c in primary:
         take(c)
+    # 2.5) RODZENSTWO: pozostale ustepy artykulu czolowego seeda normatywnego
+    top_art = next((c.get("article") for c in (list(exact) + primary)
+                    if c.get("legal_function") == "normative" and c.get("article")), None)
+    if top_art:
+        def _pnum(c):
+            try:
+                return int(c.get("paragraph") or 0)
+            except (TypeError, ValueError):
+                return 0
+        sibs = [c for c in chunks_all
+                if c.get("article") == top_art and c.get("legal_function") == "normative"]
+        for c in sorted(sibs, key=_pnum)[:sibling_cap]:
+            take(c)
     # 3) bezposrednie references jednostek z (1)+(2) - PRZED reszta fuzji
     added_refs, used = [], 0
     for c in list(exact) + primary:
