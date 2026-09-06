@@ -120,7 +120,9 @@ def generate_answer(question: str, sources: list[dict], model: str | None = None
     def _call():
         return client.messages.parse(
             model=model or ANTHROPIC_MODEL,
-            max_tokens=12000,  # bufor; prompt wymusza zwiezlosc -> zwykle duzo mniej
+            # 6000 = bufor na pelna odpowiedz (sonnet ~4300) + twardy sufit kosztu
+            # najgorszego przypadku (~6 gr sonnet). Prompt wymusza zwiezlosc.
+            max_tokens=6000,
             thinking={"type": "disabled"},
             system=SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user}],

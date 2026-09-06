@@ -91,10 +91,10 @@ SCOPE_MIN_SIMILARITY = float(os.getenv("SCOPE_MIN_SIMILARITY", "0.50"))
 # .strip() KLUCZOWE: sekret wklejony w panelu hostingu miewa koncowa spacje/nowa
 # linie -> "Illegal header value" w httpx -> APIConnectionError. Strip to naprawia.
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "").strip()
-# Domyslnie Opus 5 - poprawnosc prawna to priorytet #1. Koszt kontrolowany
-# spend-capem w Anthropic Console. Mozna zmienic na claude-sonnet-5 dla nizszego
-# kosztu przez ustawienie ANTHROPIC_MODEL w .env.
-ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-opus-5").strip()
+# Domyslnie Sonnet 5 - najlepszy stosunek jakosci do ceny i zwiezly (opus bywa
+# nadmiernie gadatliwy przy zlozonych pytaniach -> uciecia + wysoki koszt).
+# Mozna nadpisac na claude-opus-5 przez ANTHROPIC_MODEL, ale to droga opcja.
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-5").strip()
 
 # =============================================================
 #  Aplikacja / dostep
