@@ -66,6 +66,11 @@ ZASADY BEZWZGLEDNE (naruszenie = blad krytyczny):
 FORMAT: wypelnij pola schematu. legal_basis i sources = dokladne jednostki
 prawne (np. "Art. 6 ust. 3", "Zalacznik VII"). quotes = doslowne, krotkie cytaty
 z kontekstu. Gdy insufficient_context=true, w answer napisz krotko czego brakuje.
+
+ZWIEZLOSC (wazne): pole "answer" maksymalnie ~250 slow, rzeczowo, bez naglowkow
+typu "PODSUMOWANIE". Szczegoly rozloz na osobne pola (deadlines, exceptions,
+complementary_provisions, practical_implications) - NIE powielaj tej samej tresci
+miedzy polami. Kazda lista: maksymalnie 6 pozycji. quotes: maksymalnie 3 krotkie.
 """
 
 
@@ -110,17 +115,37 @@ def generate_answer(question: str, sources: list[dict], model: str | None = None
         f"PYTANIE:\n{question}\n\n"
         f"KONTEKST (jedyne dozwolone zrodla):\n{_format_sources(sources)}"
     )
-    # Koszt: thinking wylaczone (zadanie = wyciaganie z podanego tekstu, nie
-    # gleboka analiza) + niski max_tokens. To glowne oszczednosci na wyjsciu.
-    resp = client.messages.parse(
-        model=model or ANTHROPIC_MODEL,
-        max_tokens=8000,  # zlozone pytania daja dlugi structured output; 4000 urywalo JSON
-        thinking={"type": "disabled"},
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user}],
-        output_format=RagAnswer,
-    )
-    return resp.parsed_output
+    from pydantic import ValidationError
+
+    def _call():
+        return client.messages.parse(
+            model=model or ANTHROPIC_MODEL,
+            max_tokens=12000,  # bufor; prompt wymusza zwiezlosc -> zwykle duzo mniej
+            thinking={"type": "disabled"},
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user}],
+            output_format=RagAnswer,
+        )
+
+    try:
+        return _call().parsed_output
+    except ValidationError:
+        # Urwany/niepoprawny JSON = odpowiedz przekroczyla limit dlugosci.
+        return RagAnswer(
+            answer=("Pytanie okazało się bardzo złożone i odpowiedź przekroczyła "
+                    "limit długości. Zawęź je do jednego wątku (np. same terminy "
+                    "albo sama dokumentacja) i zapytaj ponownie."),
+            confidence="low", insufficient_context=True,
+        )
+    except anthropic.BadRequestError as e:
+        msg = str(e).lower()
+        if "usage limit" in msg or "spend" in msg:
+            raise RuntimeError(
+                "Osiągnięto miesięczny limit wydatków API. Podnieś go w Anthropic "
+                "Console → Billing → Spend limits, albo poczekaj do resetu (1. dnia "
+                "miesiąca UTC)."
+            ) from e
+        raise
 
 
 if __name__ == "__main__":
