@@ -114,7 +114,7 @@ def generate_answer(question: str, sources: list[dict], model: str | None = None
     # gleboka analiza) + niski max_tokens. To glowne oszczednosci na wyjsciu.
     resp = client.messages.parse(
         model=model or ANTHROPIC_MODEL,
-        max_tokens=4000,
+        max_tokens=8000,  # zlozone pytania daja dlugi structured output; 4000 urywalo JSON
         thinking={"type": "disabled"},
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user}],
