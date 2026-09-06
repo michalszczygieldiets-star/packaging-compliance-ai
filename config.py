@@ -76,6 +76,15 @@ EMB_META_PATH = INDEX_DIR / "emb_meta.json"
 TOP_K = 8                    # ile kandydatow z semantic search
 CONTEXT_BUDGET_CHUNKS = 12   # jawny budzet kontekstu przekazywanego do LLM
 
+# Guardrail zakresu (oszczednosc): jesli brak jawnego cytatu I najlepsze
+# podobienstwo semantyczne < progu -> pytanie odcinane PRZED LLM (zero kosztu).
+# Prog CELOWO niski (0.50): pytania zlozone/potoczne na temat maja niski cosinus
+# (np. flagowe pytanie o catering 0.56, "tacka PP" 0.63) i NIE moga byc blokowane.
+# 0.50 lapie oczywiste off-topic (pogoda, sport, IT ~0.1-0.3) bez falszywych
+# blokad legit; pytania graniczne (np. VAT 0.63) przepuszcza do taniego guardraila
+# LLM (krotka odpowiedz "brak podstawy"). Konfigurowalny przez env.
+SCOPE_MIN_SIMILARITY = float(os.getenv("SCOPE_MIN_SIMILARITY", "0.50"))
+
 # =============================================================
 #  LLM (Anthropic)
 # =============================================================
